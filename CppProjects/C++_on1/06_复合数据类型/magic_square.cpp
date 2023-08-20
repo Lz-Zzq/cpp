@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main1()
+int main4()
 {
 	const int n = 3;
 	bool isMagic = true;

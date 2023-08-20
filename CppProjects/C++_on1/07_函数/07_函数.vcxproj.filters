@@ -15,45 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="array.cpp">
+    <ClCompile Include="function_declare.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vector.cpp">
+    <ClCompile Include="funcation_case.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="struct.cpp">
+    <ClCompile Include="cubeSumFunction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="enum.cpp">
+    <ClCompile Include="binary_search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="pointer.cpp">
+    <ClCompile Include="quick_sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="reference.cpp">
+    <ClCompile Include="print_tree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ref_and_pointer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse_array.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="magic_square.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="bigint.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse_list.cpp">
+    <ClCompile Include="traversal_tree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="list_node.h">
+    <ClInclude Include="f.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree_node.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

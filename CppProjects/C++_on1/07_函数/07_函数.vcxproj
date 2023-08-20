@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{db193673-b214-45ec-a8f8-31efb8b8e106}</ProjectGuid>
-    <RootNamespace>My06复合数据类型</RootNamespace>
+    <ProjectGuid>{09f74bff-75f3-4a80-b70e-0b4eca3244b1}</ProjectGuid>
+    <RootNamespace>My07函数</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,23 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="array.cpp" />
-    <ClCompile Include="bigint.cpp" />
-    <ClCompile Include="enum.cpp" />
-    <ClCompile Include="magic_square.cpp" />
-    <ClCompile Include="pointer.cpp" />
-    <ClCompile Include="reference.cpp" />
-    <ClCompile Include="ref_and_pointer.cpp" />
-    <ClCompile Include="reverse_array.cpp" />
-    <ClCompile Include="reverse_list.cpp" />
-    <ClCompile Include="struct.cpp" />
-    <ClCompile Include="vector.cpp" />
+    <ClCompile Include="binary_search.cpp" />
+    <ClCompile Include="cubeSumFunction.cpp" />
+    <ClCompile Include="funcation_case.cpp" />
+    <ClCompile Include="function_declare.cpp" />
+    <ClCompile Include="print_tree.cpp" />
+    <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="traversal_tree.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="list_node.h" />
+    <ClInclude Include="f.h" />
+    <ClInclude Include="tree_node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
